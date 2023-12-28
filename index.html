@@ -309,12 +309,12 @@
                       </div>
                     </div>
                     <div class="row">
-                      <form action="">
-                        <input type="text" placeholder="name" class="box">
-                        <input type="email" placeholder="email" class="box">
-                        <input type="number" placeholder="number" class="box">
+                      <form action="email.php" method="post">
+                        <input type="text" name="name" placeholder="name" class="box">
+                        <input type="email" name="email" placeholder="email" class="box">
+                        <input type="number" name="phone" placeholder="number" class="box">
 
-                        <textarea name="" placeholder="message" cols="30" rows="10"></textarea>
+                        <textarea name="message" placeholder="message" cols="30" rows="10"></textarea>
 
                         <input type="submit" class="btn" value="send message">
                       </form>
